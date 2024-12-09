@@ -33,6 +33,8 @@ La base de datos netflix_db contiene una tabla llamada contenido con la siguient
 | clasificacion  | VARCHAR(50)        | Clasificación por edad                  |
 | duracion       | VARCHAR(50)        | Duración de la película o serie         |
 | pais           | VARCHAR(100)       | País de producción                      |
+
+
 Operaciones CRUD
 Crear: Los usuarios pueden agregar nuevos contenidos a través de un formulario en add_content.php. Este formulario envía los datos al archivo add_content.php, que los inserta en la base de datos utilizando una consulta SQL INSERT.
 
