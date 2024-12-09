@@ -13,7 +13,8 @@ Este proyecto es una plataforma desarrollada en PHP que permite gestionar conten
 - *PHP*: Lenguaje de programación utilizado para gestionar la lógica del backend y las interacciones con la base de datos.
 - *MySQL*: Sistema de gestión de bases de datos relacional que almacena la información de los contenidos.
 - *HTML/CSS*: Se utiliza para estructurar y diseñar la interfaz de usuario del proyecto.
-
+- *XAMP*: Servidor web local utilizado para realizar las conexiones con SQL y PHP.
+- 
 ## Estructura del Proyecto
 
 El proyecto está compuesto por varios archivos PHP que realizan funciones específicas para interactuar con la base de datos *MySQL*. Los archivos principales son:
