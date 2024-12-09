@@ -1,27 +1,33 @@
 # NETFLIX-Content-Manager
 Este proyecto es una plataforma desarrollada en PHP que permite gestionar contenidos (como películas, series, etc.) almacenados en una base de datos MySQL. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los contenidos, brindando una interfaz sencilla para manejar los datos de la base de datos.
 
-# Características principales
-Agregar contenido: Permite agregar nuevos registros a la base de datos, como títulos, géneros, años de lanzamiento, clasificaciones, duración y países de producción.
-Visualizar contenido: Muestra los registros almacenados en la base de datos en un formato fácil de leer.
-Actualizar contenido: Permite modificar los detalles de un registro existente en la base de datos.
-Eliminar contenido: Permite eliminar registros de la base de datos.
-Tecnologías utilizadas
-PHP: Lenguaje de programación utilizado para gestionar la lógica del backend.
-MySQL: Sistema de gestión de bases de datos relacional utilizado para almacenar los contenidos.
-HTML/CSS: Se utiliza para mostrar la interfaz de usuario y la estructura de la página web.
-Estructura del Proyecto
-El proyecto está compuesto por varios archivos PHP que realizan funciones específicas para interactuar con la base de datos MySQL. Los archivos principales son:
+## Características principales
 
-connection.php: Contiene la configuración de la conexión a la base de datos MySQL.
-index.php: Muestra los contenidos almacenados en la base de datos.
-add_content.php: Permite agregar nuevos contenidos a la base de datos.
-edit_content.php: Permite editar los detalles de un contenido existente.
-delete_content.php: Elimina un contenido de la base de datos.
-Conexión con la Base de Datos
+- *Agregar contenido*: Permite agregar nuevos registros a la base de datos, como título, género, año de estreno, clasificación, duración y país de producción.
+- *Visualizar contenido*: Muestra los registros existentes en la base de datos de manera ordenada.
+- *Actualizar contenido*: Permite modificar los detalles de un contenido (por ejemplo, cambiar el título, género o duración).
+- *Eliminar contenido*: Permite eliminar un contenido de la base de datos de manera definitiva.
+
+## Tecnologías utilizadas
+
+- *PHP*: Lenguaje de programación utilizado para gestionar la lógica del backend y las interacciones con la base de datos.
+- *MySQL*: Sistema de gestión de bases de datos relacional que almacena la información de los contenidos.
+- *HTML/CSS*: Se utiliza para estructurar y diseñar la interfaz de usuario del proyecto.
+
+## Estructura del Proyecto
+
+El proyecto está compuesto por varios archivos PHP que realizan funciones específicas para interactuar con la base de datos *MySQL*. Los archivos principales son:
+
+- *connection.php: Establece la conexión entre el proyecto y la base de datos **MySQL*.
+- *index.php*: Muestra los contenidos almacenados en la base de datos.
+- *add_content.php*: Permite agregar nuevos contenidos a la base de datos.
+- *edit_content.php*: Permite editar los detalles de un contenido existente.
+- *delete_content.php*: Elimina un contenido de la base de datos.
+
+## Conexión con la Base de Datos
 El archivo connection.php es el encargado de establecer la conexión entre el proyecto PHP NET y la base de datos MySQL.
 
-Estructura de la Base de Datos
+## Estructura de la Base de Datos
 La base de datos netflix_db contiene una tabla llamada contenido con la siguiente estructura:
 
 | Columna          | Tipo de Dato      | Descripción                             |
