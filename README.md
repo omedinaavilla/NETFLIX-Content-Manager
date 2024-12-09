@@ -1,7 +1,7 @@
 # NETFLIX-Content-Manager
 Este proyecto es una plataforma desarrollada en PHP que permite gestionar contenidos (como películas, series, etc.) almacenados en una base de datos MySQL. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los contenidos, brindando una interfaz sencilla para manejar los datos de la base de datos.
 
-#Características principales
+# Características principales
 Agregar contenido: Permite agregar nuevos registros a la base de datos, como títulos, géneros, años de lanzamiento, clasificaciones, duración y países de producción.
 Visualizar contenido: Muestra los registros almacenados en la base de datos en un formato fácil de leer.
 Actualizar contenido: Permite modificar los detalles de un registro existente en la base de datos.
@@ -35,7 +35,7 @@ La base de datos netflix_db contiene una tabla llamada contenido con la siguient
 | pais           | VARCHAR(100)       | País de producción                      |
 
 
-Operaciones CRUD
+# Operaciones CRUD
 Crear: Los usuarios pueden agregar nuevos contenidos a través de un formulario en add_content.php. Este formulario envía los datos al archivo add_content.php, que los inserta en la base de datos utilizando una consulta SQL INSERT.
 
 Leer: Los contenidos se visualizan en index.php. Los registros de la tabla contenido son obtenidos con una consulta SQL SELECT y luego se muestran en una tabla HTML.
